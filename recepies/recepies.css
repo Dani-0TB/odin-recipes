@@ -1,0 +1,14 @@
+.recipie{
+  background-color: #12486B;
+  color: white;
+  max-width: 800px;
+  border-radius: 2rem;
+  border: 5px solid #C70039;
+  padding: 0.5rem 2rem 2rem 2rem;
+  margin: 1rem auto;
+}
+
+.recipie-img{
+  max-width: 600px;
+  margin: 0 auto;
+}

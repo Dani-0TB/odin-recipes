@@ -14,10 +14,11 @@ a {
 }
 
 img{
-  width: 600px;
-  max-width: 600px;
+  max-width: 100%;
+  min-width: 100%;
   margin: 0 auto;
   display: block;
+  border-radius: 2rem;
 }
 
 .title {
@@ -41,27 +42,27 @@ img{
   margin: auto;
   max-width: 500px;
 }
-
 .title-2{
   font-size: 30px;
   text-align: center;
 }
-
 .list-link{
   color: white;
   font-size: 20px;
   margin: 1rem 0;
 }
-
 .list-link:hover{
   color: rgb(197, 237, 255);
   text-decoration: underline;
 }
 
 .breadcrum {
-  color: #909090;
+  color: #FFF5E0;
 }
-
-.bc-link:hover{
+.bc-link:hover,.bc-link-a:hover{
   text-decoration: underline;
+  color: #FF6969;
+}
+.bc-link-a{
+  color: #FF6969;
 }
